@@ -383,11 +383,11 @@ class AzureStorageExplorer:
 
 
 
-def main():
+def dipak():
     root = tk.Tk()
     app = AzureStorageExplorer(root)
     root.mainloop()
 
 if __name__ == "__main__":
-    main()
-    main()
+    dipak()
+    dipak()
