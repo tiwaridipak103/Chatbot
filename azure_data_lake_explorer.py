@@ -14,11 +14,11 @@ class AzureStorageExplorer:
         self.root.title("Azure Storage Explorer")
 
         # Azure Storage connection
-        self.connection_string = "string - connection"
+        self.connection_string = "DefaultEndpointsProtocol=https;AccountName=snowflakeazuredemo103;AccountKey=VoHCO6c56mSSGnGf0EzaNgv9n8y1KeV+8a7qBHqNgbvCfQRYHiPvJea38bD6ZVsGYaklkZ0Fzbet+AStRDyCXg==;EndpointSuffix=core.windows.net"
         self.blob_service_client = BlobServiceClient.from_connection_string(self.connection_string)
 
         # Container name
-        self.container_name = "Container name"
+        self.container_name = "snowflake-demo"
         self.path = "/"
         self.navigate = []
 
